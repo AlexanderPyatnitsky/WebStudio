@@ -12,18 +12,19 @@
     <link rel="stylesheet" href="./stele.css">
 </head>
 <body>
+    <!-- Шапка сторінки -->
     <header class="head">
-        <div class="container">
-            <div class="head__wrapper">
+        <div class="head__wrapper container">
                 <nav class="head__nav">
                     <a class="head__nav-logo link-reset" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
                     <ul class="head__nav-list list-reset">
-                        <li class="head__nav-item"><a class="head__nav-link link-reset" href="./index.html">Студія</a></li>
+                        <li class="head__nav-item"><a class="head__nav-link link-reset menu-activ" href="./index.html">Студія</a></li>
                         <li class="head__nav-item"><a class="head__nav-link link-reset" href="./portfolio.html">Портфоліо</a></li>
                         <li class="head__nav-item"><a class="head__nav-link link-reset" href="#">Контакти</a></li>
                     </ul>
                 </nav>
                 <ul class="head__contacts-list list-reset">
+
                     <li class="head__contacts-item">
                         <a class="head__contacts-link link-reset" href="mailto:info@devstudio.com">
                             <svg class="envelope-icon">
@@ -32,6 +33,7 @@
                             info@devstudio.com
                         </a>
                     </li>
+
                     <li class="head__contacts-item">
                         <a class="head__contacts-link link-reset" href="tel:+380961111111">
                             <svg class="smartphone-icon">
@@ -41,22 +43,23 @@
                         </a>
                     </li>
                 </ul>
-            </div>
-        </div>
+          </div>
     </header>
+    <!-- Контент сторінки -->
     <main class="main">
+        <!-- Герой -->
         <section class="hero">
-            <div class="container">
-                <div class="hero__wrapper">
-                    <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-                    <button class="hero__btn" type="button">Замовити послугу</button>
-                </div>
+            <div class="hero__wrapper container">
+                <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+                <button class="hero__btn" type="button">Замовити послугу</button>
             </div>
         </section>
+        <!-- Особливості -->
         <section class="peculiarities">
             <div class="container">
                 <h2 class="peculiarities__title visually-hidden">Особливості</h2>
                 <ul class="peculiarities__list list-reset">
+
                     <li class="peculiarities__item">
                         <div class="peculiarities__item-icon">
                             <svg class="item-icon">
@@ -66,6 +69,7 @@
                         <h3 class="peculiarities__item-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                         <p class="peculiarities__item-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                     </li>
+
                     <li class="peculiarities__item">
                         <div class="peculiarities__item-icon">
                             <svg class="item-icon">
@@ -75,6 +79,7 @@
                         <h3 class="peculiarities__item-title">ПУНКТУАЛЬНІСТЬ</h3>
                         <p class="peculiarities__item-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                     </li>
+
                     <li class="peculiarities__item">
                         <div class="peculiarities__item-icon">
                             <svg class="item-icon">
@@ -84,6 +89,7 @@
                         <h3 class="peculiarities__item-title">ПЛАНУВАННЯ</h3>
                         <p class="peculiarities__item-text">Так само консультація з широким активом значною мірою зумовлює.</p>
                     </li>
+
                     <li class="peculiarities__item">
                         <div class="peculiarities__item-icon">
                             <svg class="item-icon">
@@ -96,32 +102,41 @@
                 </ul>
             </div>
         </section>
+        <!-- Наші роботи -->
         <section class="our-work">
             <div class="container">
                 <h2 class="our-work__title">Чим ми займаємося</h2>
                 <ul class="our-work__list list-reset">
+
                     <li class="our-work__list-item">
                         <img class="our-work__list-item-img" src="./images/img1.jpg" width="370" alt="наші роботи" width="370">
                     </li>
+
                     <li class="our-work__list-item">
                         <img class="our-work__list-item-img" src="./images/img2.jpg" width="370" alt="наші роботи" width="370">
                     </li>
+
                     <li class="our-work__list-item">
                         <img class="our-work__list-item-img" src="./images/img3.jpg" width="370" alt="наші роботи" width="370">
                     </li>
                 </ul>
             </div>
         </section>
+        <!-- Наша команда -->
         <section class="team">
             <div class="container">
                 <h2 class="team__title">Наша команда</h2>
                 <ul class="team__list-cards list-reset">
+                    <!-- Член команди №1 -->
                     <li class="team__list-cards-item">
-                        <img class="team__list-cards-item-img" src="./images/comands1.jpg" width="270" alt="фото Ігоря Дем'яненко" width="270">
+                        <div class="team__list-cards-wrapper-img">
+                            <img class="team__list-cards-item-img" src="./images/comands1.jpg" width="270" alt="фото Ігоря Дем'яненко" width="270">
+                        </div>
                         <div class="team__list-cards-wrapper">
                             <h3 class="team__list-cards-item-title">Ігор Дем'яненко</h3>
                             <p class="team__list-cards-item-text">Product Designer</p>
                             <ul class="team__social-list-cards list-reset">
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://www.instagram.com/" target="_blank">
                                         <svg class="social-icon">
@@ -129,6 +144,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://twitter.com/" target="_blank">
                                         <svg class="social-icon">
@@ -136,6 +152,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://www.facebook.com/" target="_blank">
                                         <svg class="social-icon">
@@ -143,6 +160,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://linkedin.com/" target="_blank">
                                         <svg class="social-icon">
@@ -153,12 +171,14 @@
                             </ul>
                         </div>
                     </li>
+                    <!-- Член команди №2 -->
                     <li class="team__list-cards-item">
                         <img class="team__list-cards-item-img" src="./images/comands2.jpg" width="270" alt="фото Ольги Рєпіной" width="270">
                         <div class="team__list-cards-wrapper">
                             <h3 class="team__list-cards-item-title">Ольга Рєпіна</h3>
                             <p class="team__list-cards-item-text">Frontend Developer</p>
                             <ul class="team__social-list-cards list-reset">
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://www.instagram.com/" target="_blank">
                                         <svg class="social-icon">
@@ -166,6 +186,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://twitter.com/" target="_blank">
                                         <svg class="social-icon">
@@ -173,6 +194,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://www.facebook.com/" target="_blank">
                                         <svg class="social-icon">
@@ -180,6 +202,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://linkedin.com/" target="_blank">
                                         <svg class="social-icon">
@@ -190,12 +213,14 @@
                             </ul>
                         </div>
                     </li>
+                    <!-- Член команди №3 -->
                     <li class="team__list-cards-item">
                         <img class="team__list-cards-item-img" src="./images/comands3.jpg" width="270" alt="фото Миколи Тарасова" width="270">
                         <div class="team__list-cards-wrapper">
                             <h3 class="team__list-cards-item-title">Микола Тарасов</h3>
                             <p class="team__list-cards-item-text">Marketing</p>
                             <ul class="team__social-list-cards list-reset">
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://www.instagram.com/" target="_blank">
                                         <svg class="social-icon">
@@ -203,6 +228,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://twitter.com/" target="_blank">
                                         <svg class="social-icon">
@@ -210,6 +236,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://www.facebook.com/" target="_blank">
                                         <svg class="social-icon">
@@ -217,6 +244,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://linkedin.com/" target="_blank">
                                         <svg class="social-icon">
@@ -227,12 +255,14 @@
                             </ul>
                         </div>
                     </li>
+                    <!-- Член команди №4 -->
                     <li class="team__list-cards-item">
                         <img class="team__list-cards-item-img" src="./images/comanda4.jpg" width="270" alt="фото Михайла Єрмакова" width="270">
                         <div class="team__list-cards-wrapper">
                             <h3 class="team__list-cards-item-title">Михайло Єрмаков</h3>
                             <p class="team__list-cards-item-text">UI Designer</p>
                             <ul class="team__social-list-cards list-reset">
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://www.instagram.com/" target="_blank">
                                         <svg class="social-icon">
@@ -240,6 +270,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://twitter.com/" target="_blank">
                                         <svg class="social-icon">
@@ -247,6 +278,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://www.facebook.com/" target="_blank">
                                         <svg class="social-icon">
@@ -254,6 +286,7 @@
                                         </svg>
                                     </a>
                                 </li>
+
                                 <li class="team__social-llist-cards-item">
                                     <a class="team__social-linc" href="https://linkedin.com/" target="_blank">
                                         <svg class="social-icon">
@@ -267,10 +300,12 @@
                 </ul>
             </div>
         </section>
+        <!-- Наші кліенти -->
         <section class="clients">
             <div class="clients__wrapper container">
                 <h2 class="clients__title">Постійні клієнти</h2>
                 <ul class="clients__list list-reset">
+                    <!-- Позиція №1 -->
                     <li class="clients__list-item">
                         <a class="clients__list-item-link" href="#">
                             <svg class="clients__icon">
@@ -278,6 +313,7 @@
                             </svg>
                         </a>
                     </li>
+                    <!-- Позиція №2 -->
                     <li class="clients__list-item">
                         <a class="clients__list-item-link" href="#">
                             <svg class="clients__icon">
@@ -285,6 +321,7 @@
                             </svg>
                         </a>
                     </li>
+                    <!-- Позиція №3 -->
                     <li class="clients__list-item">
                         <a class="clients__list-item-link" href="#">
                             <svg class="clients__icon">
@@ -292,6 +329,7 @@
                             </svg>
                         </a>
                     </li>
+                    <!-- Позиція №4 -->
                     <li class="clients__list-item">
                         <a class="clients__list-item-link" href="#">
                             <svg class="clients__icon">
@@ -299,6 +337,7 @@
                             </svg>
                         </a>
                     </li>
+                    <!-- Позиція №5 -->
                     <li class="clients__list-item">
                         <a class="clients__list-item-link" href="#">
                             <svg class="clients__icon">
@@ -306,6 +345,7 @@
                             </svg>
                         </a>
                     </li>
+                    <!-- Позиція №6 -->
                     <li class="clients__list-item">
                         <a class="clients__list-item-link" href="#">
                             <svg class="clients__icon">
@@ -317,45 +357,51 @@
             </div>
         </section>
     </main>
+    <!-- Підвал сторінки -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer__wrapper">
+        <div class=" footer__wrapper container">
                 <div class="footer__address-box">
                     <a class="footer__logo link-reset" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
                     <address class="footer__address">
                         <ul class="footer__address-list list-reset">
                             <li class="footer__address-list-item"><a class="footer__address-list-item link-reset" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noreferrer nofollow noopener">м. Київ, пр-т Лесі Українки, 26</a></li>
+
                             <li class="footer__address-list-item"><a class="footer__address-list-item-link link-reset" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+
                             <li class="footer__address-list-item"><a class="footer__address-list-item-link link-reset" href="tel:+380961111111">+38 096 111 11 11</a></li>
                         </ul>
                     </address>
                 </div>
+
                 <div class="footer__social-box">
                     <p class="footer__social-title">приєднуйтесь</p>
                     <ul class="footer__social-list list-reset">
                         <li class="footer__social-list-item">
-                            <a class="footer__social-list-linc" href="#">
+                            <a class="footer__social-list-linc" href="https://www.instagram.com/" target="_blank">
                                 <svg class="footer__social-list-icon">
                                     <use href="./Vector/sprite.svg#icon-instagram-1"></use>
                                 </svg>
                             </a>
                         </li>
+
                         <li class="footer__social-list-item">
-                            <a class="footer__social-list-linc" href="#">
+                            <a class="footer__social-list-linc" href="https://twitter.com/" target="_blank">
                                 <svg class="footer__social-list-icon">
                                     <use href="./Vector/sprite.svg#icon-twitter-1"></use>
                                 </svg>
                             </a>
                         </li>
+
                         <li class="footer__social-list-item">
-                            <a class="footer__social-list-linc" href="#">
+                            <a class="footer__social-list-linc" href="https://www.facebook.com/" target="_blank">
                                 <svg class="footer__social-list-icon">
                                     <use href="./Vector/sprite.svg#icon-facebook-1"></use>
                                 </svg>
                             </a>
                         </li>
+
                         <li class="footer__social-list-item">
-                            <a class="footer__social-list-linc" href="#">
+                            <a class="footer__social-list-linc" href="https://linkedin.com/" target="_blank">
                                 <svg class="footer__social-list-icon">
                                     <use href="./Vector/sprite.svg#icon-linkedin-1"></use>
                                 </svg>
@@ -363,8 +409,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-        </div>
+          </div>
     </footer>
 </body>
 </html>
